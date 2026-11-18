@@ -154,6 +154,37 @@
       ],
       "source": "https://github.com/gufo-org/lfm3-gufo-extension"
     },
+    "nemotron_asr": {
+      "description": "NVIDIA Nemotron 3.5 ASR Streaming 0.6B on Strix Halo: speech recognition in 40 languages for uploads and live audio",
+      "homepage": "https://github.com/gufo-extensions/nemotron_asr",
+      "license": "MIT AND Apache-2.0 AND ISC",
+      "maintainers": [
+        "@mduka"
+      ],
+      "releases": [
+        {
+          "api_version": ">= 0.3.4",
+          "digest": "sha256:3364b80cccf2233a636c58ce3a7ee6ff14f36810ae25c1c58ecc8f3ac5f6279f",
+          "notes": "`--live-lookahead 0|3|6|13` sets how often live sessions send text (every 0.08 to 1.12 s, default 0.56 s); `gufo model install nemotron-3.5-asr` installs the tested weights. Built on Gufo 0.35.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "82f99250e210203e407430cc793598d285290d65",
+          "version": "0.2.0"
+        },
+        {
+          "api_version": ">= 0.3.0",
+          "digest": "sha256:1902e373a36b3ca1be9b10adfb3eacd9f11a8e66dd161a0f7868f6aa5977ebce",
+          "notes": "Uploads and the realtime WebSocket from the Hugging Face directory, with language detection; every matrix product on the matrix cores, tokens identical to the reference's offline transcription. Built on Gufo 0.34.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "c256b6979cc8e4af3005623459bfadda25488576",
+          "version": "0.1.2"
+        }
+      ],
+      "source": "https://github.com/gufo-extensions/nemotron_asr"
+    },
     "strycast_qwen35moe": {
       "description": "Qwen3.6-35B-A3B and Ornith 1.5 122B on Strix Halo with MTP and DFlash2 speculative decoding",
       "homepage": "https://github.com/slimsami/strycast-qwen35moe-gufo-extension",
