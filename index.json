@@ -154,6 +154,37 @@
       ],
       "source": "https://github.com/gufo-org/lfm3-gufo-extension"
     },
+    "omnivoice": {
+      "description": "k2-fsa OmniVoice on Strix Halo: multilingual zero-shot speech synthesis with voice design and voice cloning",
+      "homepage": "https://github.com/gufo-extensions/omnivoice",
+      "license": "MIT AND Apache-2.0 AND BSD-2-Clause",
+      "maintainers": [
+        "@mduka"
+      ],
+      "releases": [
+        {
+          "api_version": ">= 0.3.0",
+          "digest": "sha256:70f608de6d4196a38bab171af3a850547c538480ac71856bbc7b5ca875cfa1a2",
+          "notes": "`gufo model install omnivoice` installs the tested weights (Gufo 0.35.0 or later); synthesis unchanged from 0.2.0. Built on Gufo 0.35.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "3398d87a8c7a4326e4edc777462d06fd40a9fad4",
+          "version": "0.2.1"
+        },
+        {
+          "api_version": ">= 0.3.0",
+          "digest": "sha256:eaed28e8c234b9a2378929368e2b006f813fec512fe11bc75ec485a1294c50b8",
+          "notes": "Speech synthesis from the Hugging Face directory: automatic voice, voice design and voice cloning. Built on Gufo 0.34.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "2edaf71555ee103da8c8d435b5f77f5306904495",
+          "version": "0.2.0"
+        }
+      ],
+      "source": "https://github.com/gufo-extensions/omnivoice"
+    },
     "strycast_qwen35moe": {
       "description": "Qwen3.6-35B-A3B and Ornith 1.5 122B on Strix Halo with MTP and DFlash2 speculative decoding",
       "homepage": "https://github.com/slimsami/strycast-qwen35moe-gufo-extension",
