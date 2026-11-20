@@ -204,6 +204,37 @@
         }
       ],
       "source": "https://github.com/D3rPapts/upscale-gufo-extension"
+    },
+    "voxcpm": {
+      "description": "OpenBMB VoxCPM2 on Strix Halo: multilingual 48 kHz speech synthesis with voice design and voice cloning",
+      "homepage": "https://github.com/gufo-extensions/voxcpm",
+      "license": "MIT AND Apache-2.0",
+      "maintainers": [
+        "@mduka"
+      ],
+      "releases": [
+        {
+          "api_version": ">= 0.3.0",
+          "digest": "sha256:a6063558ba53b01840a1f5121187477fabf373892dc19930d1b2a14d1b26dcca",
+          "notes": "`gufo model install voxcpm2` or `voxcpm2-q8` installs the tested Hugging Face weights or audio.cpp's Q8_0 GGUF (Gufo 0.35.0 or later); synthesis unchanged from 0.1.0. Built on Gufo 0.35.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "46bee8f0773fa03a2ad4de0d3aa8a99e1eddaf9a",
+          "version": "0.1.1"
+        },
+        {
+          "api_version": ">= 0.3.0",
+          "digest": "sha256:1b8900164cc69c636389f664b3152fd2de1327ba26c475403a252da1a5b40ae2",
+          "notes": "Speech synthesis from the Hugging Face directory or audio.cpp's GGUFs (Q8_0 products on the matrix cores): automatic voice, voice design and voice cloning. Built on Gufo 0.34.0.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "f1f00b518dd6b33e39a861bc3e84083acaf4c1e1",
+          "version": "0.1.0"
+        }
+      ],
+      "source": "https://github.com/gufo-extensions/voxcpm"
     }
   },
   "schema": 1
