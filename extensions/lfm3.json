@@ -10,6 +10,17 @@
   "source": "https://github.com/gufo-org/lfm3-gufo-extension",
   "releases": [
     {
+      "version": "0.7.0",
+      "api_version": ">= 0.3.50",
+      "platforms": [
+        "linux",
+        "windows"
+      ],
+      "revision": "cd7b8514bfced4d125a32dc990d6e0df71eaa9da",
+      "digest": "sha256:bb7ce2caad53ad48998518157fc5f15c5d1fdc3c1b4aca2e8f62657449ec28ab",
+      "notes": "Open WebUI realtime voice calls: conversations list their voice (female, the only one replies speak) and delete rejected user turns. Needs Gufo with extension API 0.3.50 (conversation turn transcripts)."
+    },
+    {
       "version": "0.6.2",
       "api_version": ">= 0.3.20",
       "platforms": [
