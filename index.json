@@ -9,6 +9,16 @@
       ],
       "releases": [
         {
+          "api_version": ">= 0.3.43",
+          "digest": "sha256:384eec92ddb810f2d58713f578d5bd0780f824df9ff28c428f60e5e3dcd9a1dd",
+          "notes": "Security fix in the GGUF loader (crafted table counts could overflow the tensor table). Expert streaming runs on Gufo's expert store (gufo-org/gufo#1318). Control-token spellings in request text stay text. Faster decode; --prefill-batch is removed. Built on Gufo 60c48924.",
+          "platforms": [
+            "linux"
+          ],
+          "revision": "d78c48773bbd49caa3912482971ac02a10695ae9",
+          "version": "0.5.1"
+        },
+        {
           "api_version": ">= 0.3.3",
           "digest": "sha256:4389cd1a85d2209c61b9aaac3a0a43378069ad5220f65163ec704c6fa5fcc99c",
           "notes": "Extension API 0.3: prompts that arrive while another session decodes prefill one batch per pass (2048 tokens, following --prefill-batch), 36% faster with less total stall for the decoding session; prompt-cache restores and DSpark checkpoints wait for queued device writes. Built on Gufo a27bbf98 (after 0.34.0, included in 0.35.0).",
