@@ -244,6 +244,17 @@
       ],
       "releases": [
         {
+          "api_version": ">= 0.3.50",
+          "digest": "sha256:bb7ce2caad53ad48998518157fc5f15c5d1fdc3c1b4aca2e8f62657449ec28ab",
+          "notes": "Open WebUI realtime voice calls: conversations list their voice (female, the only one replies speak) and delete rejected user turns. Needs Gufo with extension API 0.3.50 (conversation turn transcripts).",
+          "platforms": [
+            "linux",
+            "windows"
+          ],
+          "revision": "cd7b8514bfced4d125a32dc990d6e0df71eaa9da",
+          "version": "0.7.0"
+        },
+        {
           "api_version": ">= 0.3.20",
           "digest": "sha256:3714c2681815f5d262f2b89b4516f47db0322de18dae61a153697584983584f8",
           "notes": "Fixes SharePool most-vexing-parse bug and transposes short-convolution weights for SIMD in the NPU backbone (+13% to +19% NPU prefill across LFM3 models, exact GPU/NPU parity).",
